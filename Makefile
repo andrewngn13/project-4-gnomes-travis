@@ -18,4 +18,4 @@ gnomes_test: headers gnomes_test.cpp
 	${CXX} gnomes_test.cpp -o gnomes_test
 
 clean:
-rm -f gnomes_test
+	rm -f gnomes_test
